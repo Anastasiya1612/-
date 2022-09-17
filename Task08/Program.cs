@@ -5,4 +5,11 @@
 // 8 -> 2, 4, 6, 8
 
 Console.Write("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
+
+int i = 2;
+while(i <= number)
+{
+    Console.Write($"{i} ");
+    i = i + 2;
+}

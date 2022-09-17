@@ -7,6 +7,11 @@
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
+if (number < 1) 
+{
+    Console.Write("Недопустимое значение");
+}
+
 int i = 2;
 while(i <= number)
 {

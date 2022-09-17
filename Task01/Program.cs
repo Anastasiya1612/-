@@ -15,9 +15,11 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 int square = numberB * numberB;
 
-if (square == numberA) {
+if (square == numberA) 
+{
     Console.WriteLine("Да");
 }
-else {
+else 
+{
      Console.WriteLine("Нет");
 }

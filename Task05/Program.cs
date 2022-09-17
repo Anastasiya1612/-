@@ -4,3 +4,12 @@
 // 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
 // 2 -> " -2, -1, 0, 1, 2"
 
+Console.Write("Введите целое число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int i = -number;
+while(i <= number)
+{
+    Console.Write($"{i} ");
+    i++;
+}

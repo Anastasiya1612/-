@@ -12,9 +12,12 @@ if (number <= 1)
     Console.Write("Недопустимое значение");
 }
 
+else {
 int i = 2;
+
 while(i <= number)
 {
     Console.Write($"{i} ");
     i = i + 2;
+}
 }

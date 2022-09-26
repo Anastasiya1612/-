@@ -7,7 +7,6 @@
 
 Console.Write("Введите число от 1 до 7: ");
 int number = Convert.ToInt32(Console.ReadLine());
-
 if (number > 7 || number < 1)
 {
     Console.Write("Такого дня недели нет");
@@ -20,3 +19,20 @@ else
 {
     Console.Write("Нет");
 }
+
+// void Weekend (int number)
+// {
+// if (number > 7 || number < 1)
+// {
+//     Console.Write("Такого дня недели нет");
+// }
+// else if (number == 6 || number == 7)
+// {
+//     Console.Write("Да");
+// }
+// else
+// {
+//     Console.Write("Нет");
+// }
+// }
+// Weekend (6);

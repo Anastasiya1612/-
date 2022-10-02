@@ -18,8 +18,8 @@ int yB = Convert.ToInt32(Console.ReadLine());
 
 double LenghtLine (int ax, int ay, int bx, int by)
 {
-    int x = xB - xA;
-    int y = yB - yA;
+    int x = bx - ax;
+    int y = by - ay;
     return Math.Sqrt(x * x + y * y);
 }
 double lenghtAB = LenghtLine(xA, yA, xB, yB);

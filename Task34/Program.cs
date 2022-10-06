@@ -35,7 +35,7 @@ int EvenNumber(int[] array)
     return numEven;
 }
 
-int[] arr = CreateArrayRndInt(10, 100, 999);
+int[] arr = CreateArrayRndInt(4, 100, 999);
 PrintArray(arr);
 int result = EvenNumber (arr);
 Console.WriteLine($"Колличество чётных чисел в массиве - {result}");

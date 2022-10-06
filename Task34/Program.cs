@@ -31,7 +31,7 @@ int EvenNumber(int[] array)
     int numEven = default;
 
     for (int i = 0; i < array.Length; i++)
-        if(array[i] % 2 == 1) numEven = numEven + 1;
+        if(array[i] % 2 == 0) numEven = numEven + 1;
     return numEven;
 }
 

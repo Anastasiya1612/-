@@ -26,16 +26,15 @@ void PrintArray(int[] array)
     Console.WriteLine("]");
 }
 
-int EvenNumber(int[] array)
+void EvenNumber(int[] array)
 {
     int numEven = default;
 
     for (int i = 0; i < array.Length; i++)
         if(array[i] % 2 == 0) numEven = numEven + 1;
-    return numEven;
+    Console.WriteLine($"Колличество чётных чисел в массиве - {numEven}");
 }
 
 int[] arr = CreateArrayRndInt(4, 100, 999);
 PrintArray(arr);
-int result = EvenNumber (arr);
-Console.WriteLine($"Колличество чётных чисел в массиве - {result}");
+EvenNumber(arr);

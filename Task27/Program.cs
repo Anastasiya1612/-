@@ -10,7 +10,6 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int SumNumbersOfDigits(int num)
 {
-    int count = default;
     int digit = default;
     int sum = default;
     while (num > 0)
@@ -18,7 +17,6 @@ int SumNumbersOfDigits(int num)
         digit = num % 10;
         sum = sum + digit;
         num = num / 10;
-        count++;
     }
     return sum;
 }

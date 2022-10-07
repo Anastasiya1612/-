@@ -11,12 +11,12 @@ int number = Convert.ToInt32(Console.ReadLine());
 int SumNumbersOfDigits(int num)
 {
     int count = default;
-    int n = default;
+    int digit = default;
     int sum = default;
     while (num > 0)
     {
-        n = num % 10;
-        sum = sum + n;
+        digit = num % 10;
+        sum = sum + digit;
         num = num / 10;
         count++;
     }

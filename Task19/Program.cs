@@ -19,6 +19,7 @@ int NumberTurn(int n)
     int first = (n / 10000) % 10;
     return fifth * 10000 + fourth * 1000 + third * 100 + second * 10 + first;
 }
+
 if (num > 9999 && num < 100000)
 {
     int numberTurn = NumberTurn(num);
